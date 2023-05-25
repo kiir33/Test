@@ -6,8 +6,6 @@ jobs:
   build-and-deploy:
     
     runs-on: ubuntu-latest
-    env: 
-      RSA_KIRAN: ${{ secrets.RSA_KIRAN }}
     
     steps:
     - uses: actions/checkout@v2
@@ -20,16 +18,18 @@ jobs:
         key: node_modules_cache
         restore-keys: node_modules_cache
 
-    # - name: Install node dependencies
-    #   run: npm install
+    - name: Install node dependencies
+      run: npm install
 
-    - name: Setup SSH and Git config
+    - name: Setup Git remote
+      env:
+        USERNAME: kiir33
+        PA_TOKEN: ${{ secrets.PA_TOKEN }}
       run: |
-        sh github_actions.sh
         git config user.name 'GitHub CI'
         git config user.email 'kiranbanmala3@gmail.com'
+        git remote set-url origin https://${USERNAME}:${PA_TOKEN}git@github.com:${USERNAME}/Test.git
         git remote -v
-        git remote set-url origin git@github.com:kiir33/Test.git
 
     - name: Run deploy command
       run: npm run deploy
