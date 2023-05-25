@@ -23,8 +23,8 @@ jobs:
     - name: Install node dependencies
       run: npm install
 
-    - name: Setup SSH
-      run: sh github_actions.sh
+    # - name: Setup SSH
+    #   run: sh github_actions.sh
 
-    - name: Run deploy command
-      run: npm run deploy
+    # - name: Run deploy command
+    #   run: npm run deploy
