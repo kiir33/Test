@@ -1,6 +1,6 @@
 name: React app deployment
 
-on: workflow_dispatch
+on: push
 
 jobs:
   build-and-deploy:
@@ -23,7 +23,8 @@ jobs:
     - name: Install node dependencies
       run: npm install
 
+    - name: Setup SSH
+      run: sh github_actions.sh
+
     - name: Run deploy command
-      run: |
-        sh github-actions.sh
-        npm run deploy
+      run: npm run deploy
