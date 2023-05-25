@@ -4,14 +4,13 @@ mkdir -p ~/.ssh
 
 echo "[*] Create '~/.ssh/config' SSH config file"
 
-echo $(
-  cat <<-EOF
+echo $(cat <<-EOF
 Host github.com\n
   HostName github.com\n
   IdentityFile ~/.ssh/id_rsa_kiran\n
   IdentitiesOnly yes\n
 EOF
-) >~/.ssh/config
+) > ~/.ssh/config
 
 echo "[*] Create '~/.ssh/id_rsa_kiran' RSA file"
 
