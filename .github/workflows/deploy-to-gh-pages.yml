@@ -20,8 +20,8 @@ jobs:
         key: node_modules_cache
         restore-keys: node_modules_cache
 
-    - name: Install node dependencies
-      run: npm install
+    # - name: Install node dependencies
+    #   run: npm install
 
     - name: Setup SSH and Git config
       run: |
