@@ -26,3 +26,7 @@ eval "$(ssh-agent -s)" >/dev/null
 
 echo "[*] Add RSA File to SSH"
 ssh-add ~/.ssh/id_rsa_kiran
+
+git config user.name 'GitHub CI'
+git config user.email 'kiranbanmala3@gmail.com'
+git remote set-url origin git@github.com:kiir33/Test.git

@@ -20,16 +20,13 @@ jobs:
         key: node_modules_cache
         restore-keys: node_modules_cache
 
-    # - name: Install node dependencies
-    #   run: npm install
+    - name: Install node dependencies
+      run: npm install
 
     - name: Setup SSH and Git config
       run: |
         sh github_actions.sh
-        git config user.name 'GitHub CI'
-        git config user.email 'kiranbanmala3@gmail.com'
         git remote -v
-        git remote set-url origin git@github.com:kiir33/Test.git
 
     - name: Run deploy command
       run: npm run deploy
