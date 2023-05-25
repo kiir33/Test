@@ -20,8 +20,6 @@ echo "-----END OPENSSH PRIVATE KEY-----" >> ~/.ssh/id_rsa_kiran
 
 chmod 400 ~/.ssh/id_rsa_kiran
 
-echo ${RSA_KIRAN}
-echo ${pwd}
 echo "[*] Enable SSH Agent"
 eval "$(ssh-agent -s)"  > /dev/null
 

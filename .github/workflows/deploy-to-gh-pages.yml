@@ -28,6 +28,7 @@ jobs:
         sh github_actions.sh
         git config user.name 'GitHub CI'
         git config user.email 'kiranbanmala3@gmail.com'
+        git remote add origin git@github.com:kiir33/Test.git
 
     - name: Run deploy command
       run: npm run deploy
