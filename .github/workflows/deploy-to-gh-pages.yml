@@ -1,16 +1,14 @@
 name: React app deployment
 
-on:
-  push:
-    branches: [ main ]
+on: workflow_dispatch
 
 jobs:
   build-and-deploy:
-
+    
     runs-on: ubuntu-latest
     
     steps:
     - uses: actions/checkout@v2
 
-    - name: Deploy react app to github pages
-      uses: tanwanimohit/deploy-react-to-ghpages@v1.0.1
+    - name: Run deploy command
+      run: npm run deploy
