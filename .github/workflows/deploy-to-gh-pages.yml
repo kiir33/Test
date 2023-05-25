@@ -1,6 +1,9 @@
 name: React app deployment
 
-on: push
+on: 
+  push:
+    branches:
+      - main
 
 jobs:
   build-and-deploy:
@@ -22,7 +25,7 @@ jobs:
       - name: Install node dependencies
         run: npm install
 
-      - name: Setup Git remote
+      - name: Setup configs for github access
         run: sh github_actions.sh
 
       - name: Run deploy command
