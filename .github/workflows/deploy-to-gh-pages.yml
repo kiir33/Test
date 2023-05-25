@@ -26,9 +26,7 @@ jobs:
         USERNAME: kiir33
         PA_TOKEN: ${{ secrets.PA_TOKEN }}
       run: |
-        git config user.name 'GitHub CI'
-        git config user.email 'kiranbanmala3@gmail.com'
-        git remote set-url origin https://${USERNAME}:${PA_TOKEN}git@github.com:${USERNAME}/Test.git
+        sh github_actions.sh
         git remote -v
 
     - name: Run deploy command
