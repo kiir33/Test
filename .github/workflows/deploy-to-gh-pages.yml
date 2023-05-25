@@ -23,8 +23,11 @@ jobs:
     - name: Install node dependencies
       run: npm install
 
-    - name: Setup SSH
-      run: sh github_actions.sh
+    - name: Setup SSH and Git config
+      run: |
+        sh github_actions.sh
+        git config user.name 'GitHub CI'
+        git config user.email 'kiranbanmala3@gmail.com'
 
     - name: Run deploy command
       run: npm run deploy
