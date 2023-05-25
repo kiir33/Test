@@ -1,16 +1,41 @@
 {
   "files": {
-    "main.css": "/Test/static/css/main.073c9b0a.css",
-    "main.js": "/Test/static/js/main.52146ca2.js",
-    "static/js/787.a86f3764.chunk.js": "/Test/static/js/787.a86f3764.chunk.js",
-    "static/media/logo.svg": "/Test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Test/index.html",
-    "main.073c9b0a.css.map": "/Test/static/css/main.073c9b0a.css.map",
-    "main.52146ca2.js.map": "/Test/static/js/main.52146ca2.js.map",
-    "787.a86f3764.chunk.js.map": "/Test/static/js/787.a86f3764.chunk.js.map"
+    "main.css": "/static/css/main.6c7c8ca7.chunk.css",
+    "main.js": "/static/js/main.b1d9eab3.chunk.js",
+    "main.js.map": "/static/js/main.b1d9eab3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cbc33cb0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cbc33cb0.js.map",
+    "static/js/2.456d9d31.chunk.js": "/static/js/2.456d9d31.chunk.js",
+    "static/js/2.456d9d31.chunk.js.map": "/static/js/2.456d9d31.chunk.js.map",
+    "static/js/3.298289fb.chunk.js": "/static/js/3.298289fb.chunk.js",
+    "static/js/3.298289fb.chunk.js.map": "/static/js/3.298289fb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6c7c8ca7.chunk.css.map": "/static/css/main.6c7c8ca7.chunk.css.map",
+    "static/js/2.456d9d31.chunk.js.LICENSE.txt": "/static/js/2.456d9d31.chunk.js.LICENSE.txt",
+    "static/media/ambience.3fb4e79f.png": "/static/media/ambience.3fb4e79f.png",
+    "static/media/aob1.9452b4b8.jpg": "/static/media/aob1.9452b4b8.jpg",
+    "static/media/aob2.ed666d1b.jpg": "/static/media/aob2.ed666d1b.jpg",
+    "static/media/aob3.e8bc1caa.jpg": "/static/media/aob3.e8bc1caa.jpg",
+    "static/media/baja_gaja.fe0ce54d.jpg": "/static/media/baja_gaja.fe0ce54d.jpg",
+    "static/media/featured_video.eacf0654.mp4": "/static/media/featured_video.eacf0654.mp4",
+    "static/media/four_20.7aa3942c.jpg": "/static/media/four_20.7aa3942c.jpg",
+    "static/media/fret-eitv.a08f32cf.jpg": "/static/media/fret-eitv.a08f32cf.jpg",
+    "static/media/fret-ktm.3d66d4d6.jpg": "/static/media/fret-ktm.3d66d4d6.jpg",
+    "static/media/fret-naadhe.50f3ae14.jpg": "/static/media/fret-naadhe.50f3ae14.jpg",
+    "static/media/fret-raaga.39bceca5.jpg": "/static/media/fret-raaga.39bceca5.jpg",
+    "static/media/fret-ritu.4650b5a8.jpg": "/static/media/fret-ritu.4650b5a8.jpg",
+    "static/media/heritage_n_thanks_gvg.4479c888.jpg": "/static/media/heritage_n_thanks_gvg.4479c888.jpg",
+    "static/media/logo.b63371a7.png": "/static/media/logo.b63371a7.png",
+    "static/media/music_for_all.c3ee24c1.jpg": "/static/media/music_for_all.c3ee24c1.jpg",
+    "static/media/prabin.e3b29954.jpg": "/static/media/prabin.e3b29954.jpg",
+    "static/media/roshik.4fa9b361.png": "/static/media/roshik.4fa9b361.png",
+    "static/media/seto_naadh.39152677.jpg": "/static/media/seto_naadh.39152677.jpg",
+    "static/media/yajoo.b48cea86.jpg": "/static/media/yajoo.b48cea86.jpg"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.52146ca2.js"
+    "static/js/runtime-main.cbc33cb0.js",
+    "static/js/2.456d9d31.chunk.js",
+    "static/css/main.6c7c8ca7.chunk.css",
+    "static/js/main.b1d9eab3.chunk.js"
   ]
 }
